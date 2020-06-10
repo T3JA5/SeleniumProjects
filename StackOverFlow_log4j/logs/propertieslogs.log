@@ -1,0 +1,25 @@
+[INFO ] 2020-05-21 16:20:52.112 [main] Log4j - PLP
+[ERROR] 2020-05-21 16:20:52.114 [main] Log4j - asdasd
+[INFO ] 2020-05-21 16:22:17.776 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:22:18.191 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:22:18.343 [main] Steps - Click on Login button
+[INFO ] 2020-05-21 16:22:28.566 [main] Steps - Login successful
+[INFO ] 2020-05-21 16:22:42.728 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:22:43.139 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:22:43.273 [main] Steps - Click on Login button
+[INFO ] 2020-05-21 16:26:35.471 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:26:35.905 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:26:36.099 [main] Steps - Click on Login button
+[INFO ] 2020-05-21 16:26:46.241 [main] Steps - Login successful
+[INFO ] 2020-05-21 16:26:59.771 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:27:00.177 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:27:00.316 [main] Steps - Click on Login button
+[ERROR] 2020-05-21 16:27:05.366 [main] Steps - Login failed
+[INFO ] 2020-05-21 16:41:31.911 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:41:32.963 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:41:35.579 [main] Steps - Click on Login button
+[INFO ] 2020-05-21 16:41:45.716 [main] Steps - Login successful
+[INFO ] 2020-05-21 16:42:00.788 [main] Steps - Navigate to desired url
+[INFO ] 2020-05-21 16:42:01.788 [main] Steps - Entering email and password
+[INFO ] 2020-05-21 16:42:03.342 [main] Steps - Click on Login button
+[ERROR] 2020-05-21 16:42:08.356 [main] Steps - Login failed
