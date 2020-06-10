@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35942" started-at="2020-05-19T00:06:57 IST" finished-at="2020-05-19T00:07:33 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35942" started-at="2020-05-19T00:06:57 IST" finished-at="2020-05-19T00:07:33 IST">
+      <class name="com.extract.ImageExtract">
+        <test-method status="PASS" signature="before_test()[pri:0, instance:com.extract.ImageExtract@6c49835d]" name="before_test" is-config="true" duration-ms="15456" started-at="2020-05-19T00:06:57 IST" finished-at="2020-05-19T00:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method status="PASS" signature="image_extract()[pri:0, instance:com.extract.ImageExtract@6c49835d]" name="image_extract" duration-ms="7845" started-at="2020-05-19T00:07:12 IST" finished-at="2020-05-19T00:07:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- image_extract -->
+        <test-method status="PASS" signature="after_test()[pri:0, instance:com.extract.ImageExtract@6c49835d]" name="after_test" is-config="true" duration-ms="12593" started-at="2020-05-19T00:07:20 IST" finished-at="2020-05-19T00:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+      </class> <!-- com.extract.ImageExtract -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
