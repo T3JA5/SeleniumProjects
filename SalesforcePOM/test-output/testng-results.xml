@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45174" started-at="2020-06-06T18:34:55 IST" finished-at="2020-06-06T18:35:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45174" started-at="2020-06-06T18:34:55 IST" finished-at="2020-06-06T18:35:40 IST">
+      <class name="runner.POMTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:runner.POMTest@6c49835d]" name="beforeTest" is-config="true" duration-ms="31098" started-at="2020-06-06T18:34:55 IST" finished-at="2020-06-06T18:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="pomTest()[pri:0, instance:runner.POMTest@6c49835d]" name="pomTest" duration-ms="7882" started-at="2020-06-06T18:35:26 IST" finished-at="2020-06-06T18:35:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pomTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:runner.POMTest@6c49835d]" name="afterTest" is-config="true" duration-ms="6148" started-at="2020-06-06T18:35:34 IST" finished-at="2020-06-06T18:35:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- runner.POMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

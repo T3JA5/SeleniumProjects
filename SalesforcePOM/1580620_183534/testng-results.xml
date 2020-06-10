@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88719" started-at="2020-06-04T17:47:59 IST" finished-at="2020-06-04T17:49:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88719" started-at="2020-06-04T17:47:59 IST" finished-at="2020-06-04T17:49:28 IST">
+      <class name="runner.POMTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:runner.POMTest@6c49835d]" name="beforeTest" is-config="true" duration-ms="62974" started-at="2020-06-04T17:47:59 IST" finished-at="2020-06-04T17:49:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="pomTest()[pri:0, instance:runner.POMTest@6c49835d]" name="pomTest" duration-ms="19896" started-at="2020-06-04T17:49:02 IST" finished-at="2020-06-04T17:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:runner.POMTest@6c49835d]" name="afterTest" is-config="true" duration-ms="5786" started-at="2020-06-04T17:49:22 IST" finished-at="2020-06-04T17:49:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- runner.POMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
