@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 01 16:21:37 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>149 seconds (149924 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login in StackOverflow", "Login"<br/>
+<a href="#Output-494894055" onClick='toggleBox("Output-494894055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494894055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494894055">
+<a href=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008752221.png><img src=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008752221.png style=width:100px;height:100px;/>C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008752221.png</a><br/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:59)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace494894055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace494894055'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:59)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div></td>
+<td>22</td>
+<td>testrunner.Runner@670b40af</td></tr>
+<tr>
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login in StackOverflow", "Login"<br/>
+<a href="#Output-1721180011" onClick='toggleBox("Output-1721180011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1721180011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1721180011">
+<a href=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008775167.png><img src=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008775167.png style=width:100px;height:100px;/>C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008775167.png</a><br/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:63)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1721180011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1721180011'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:63)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div></td>
+<td>22</td>
+<td>testrunner.Runner@670b40af</td></tr>
+<tr>
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login in StackOverflow", "Login"<br/>
+<a href="#Output-1790387225" onClick='toggleBox("Output-1790387225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1790387225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1790387225">
+<a href=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008806130.png><img src=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008806130.png style=width:100px;height:100px;/>C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008806130.png</a><br/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Stack Overflow - Where Developers Learn, Share, &amp; Build Careers] but found [Log In - Stack Overflow]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at testrunner.Steps.page_titles_should_be(Steps.java:68)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1790387225", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1790387225'><pre>java.lang.AssertionError: expected [Stack Overflow - Where Developers Learn, Share, &amp; Build Careers] but found [Log In - Stack Overflow]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at testrunner.Steps.page_titles_should_be(Steps.java:68)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div></td>
+<td>31</td>
+<td>testrunner.Runner@670b40af</td></tr>
+<tr>
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login in StackOverflow", "Login"<br/>
+<a href="#Output-1658785779" onClick='toggleBox("Output-1658785779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658785779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658785779">
+<a href=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008846732.png><img src=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008846732.png style=width:100px;height:100px;/>C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008846732.png</a><br/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:63)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1658785779", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1658785779'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at testrunner.Steps.page_titles_should_be(Steps.java:63)
+	at ?.Page titles should be &quot;Stack Overflow - Where Developers Learn, Share, &amp; Build Careers&quot;(classpath:testrunner/LoginWithData.feature:8)
+</pre></div></td>
+<td>40</td>
+<td>testrunner.Runner@670b40af</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login in StackOverflow", "Login"<br/>
+<a href="#Output-1217312754" onClick='toggleBox("Output-1217312754", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1217312754" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1217312754">
+<a href=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008729150.png><img src=/screenshots/C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008729150.png style=width:100px;height:100px;/>C:\Users\T3j45\eclipse-workspace\StackOverFlow_TestNG\screenshot_1591008729150.png</a><br/><br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>testrunner.Runner@670b40af</td></tr>
+</table><p>
+</body>
+</html>
