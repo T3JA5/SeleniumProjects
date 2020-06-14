@@ -1,0 +1,118 @@
+ 
+TEJAS LABHASHETWAR.  
+Mob: 7588774865, 9762107062.  
+Email: tejaslabhahetwar@gmail.com  
+  
+ 
+OBJECTIVE:  
+  
+To enrich the knowledge through learning and utilize my technical skills and behavioral 
+skill for development of organization Educational Qualification. 
+ 
+  
+  
+Examination  University/Board  College/School  Year of  
+Passing  
+Result 
+(%)  
+BE [E&TC]  Savitribai Phule 
+Pune University  
+K. K Wagh Inst. of 
+Engg. Edu. & 
+Research, Nashik.  
+2017 62.66 
+HSC Latur Board M.G.M. Ahmedpur 
+Dist:Latur 
+2013 72.67 
+SSC  Amravati Board  K.D. High School 
+Pusad 
+Dist.: Yavatmal.  
+2011  85.45 
+ 
+ 
+TECHNICAL SKILLS:    
+ 
+? OS :      Windows 
+? USER INTERFACE :    HTML5  
+? DATABASE SOFTWARE:  Oracle(SQL 10g) 
+? LANGUAGE :    JAVA, C 
+? JEE TECHNOLOGY :   Servlet 
+? WEB SERVER :    Tomcat, Weblogic 
+? ORM FRAMEWORK :   Hibernate 
+? IDE’s :      NetBeans, Eclipse 
+ 
+ 
+ 
+ 
+ 
+  
+ACEDIMIC PROJECT:  
+ 
+PROJECT 1: 
+ 
+Title: Smart ATM 
+Domain: Embedded Programming 
+Team Size: 3 
+Role: Embedded programming for PIC16f452 
+Description: 
+ 
+Automated Teller Machines (ATMs) security and monitoring is the field of study that 
+aims at solutions that provide multiple points of protection against physical theft and 
+electronic faults. The implementation is achieved with the use of Machine-to-machine 
+(M2M) communications technology. System’s main objective is to monitor the faulty 
+conditions like power-cut for long time, no cash in the cash register, absence of internet 
+connectivity and no printer paper roll. With the proper knowledge about the fault, it 
+conveys the message to consumer as well as the authority. 
+The Main motive of this design is to Prevent ATM theft and monitoring the different 
+objective about ATM. Many real time Incidents around us has been the main motivation 
+of this Project. 
+ 
+PROJECT 2: 
+ 
+Title: Smart Solar panel 
+Domain: Embedded Programming   
+Team Size: 2 
+Role: Embedded programming for PIC16f877A 
+Description: 
+ 
+Sun Tracking System for Solar panel project is made to tracking the Sun at day time for 
+utilizing its solar energy properly for solar panel. The Sun trackers are all-weather, 
+reliable and affordable tracking and positioning instruments. This project orients the 
+Solar Panel toward the sun, so that it can utilize with higher accuracy. Our Sun Tracker 
+system track the Sun by use of microcontrollers and rotate the solar panel by means of 
+stepper motor. 
+For flat-panel applications, trackers are used to minimize the angle of incidence between 
+the incoming light and a solar panel. This increases the amount of energy produced 
+from a fixed amount of installed power generating capacity. 
+ 
+        Trainings & Workshop: 
+  
+? JSE Training at Sathya Technology, Hyderabad 
+? JSE Training at Naresh i Technology, Hyderabad 
+? JEE and Framework Training at Naresh i Technology, Hyderabad 
+? Antenna design and Fabrication held at K.K.W.I.E.E.R, Nasik on 19 Jan 2016. 
+? Industrial Automation in Feb 2015 held at K.K.W.I.E.E.R, Nasik. 
+? Cyber Cure Solutions held at G.G.S, Nasik on 6 and 7 Sept 2014 
+? Eagle-PCB CAD software organized by micron at K.K.W.I.E.E.R, Nasik on 22 
+Oct 2014 
+ 
+PERSONAL INFORMATION: 
+ 
+Name: Tejas Labhashetwar 
+Gender: Male 
+Date of Birth: 30/09/1995 
+Nationality: Indian 
+Language known: English, Marathi, Hindi 
+Contact info. : 7588774865, 9762107062 
+Alternate Email: tejas.eltx@gmail.com 
+ 
+ 
+DECLARATION: 
+ 
+I hereby confirm that the information in this document is accurate and true to the best 
+of my knowledge.   
+ 
+ 
+Place: Pusad       Tejas Labhashetwar 
+ 
+ 
