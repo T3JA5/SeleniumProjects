@@ -1,11 +1,9 @@
-package pages;
+package runner;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import stepDefination.Steps;
 
 public class Login {
 	

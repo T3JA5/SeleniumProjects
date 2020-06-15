@@ -1,22 +1,19 @@
 package runner;
 
-import org.junit.runner.RunWith;
-import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-
-@RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\T3j45\\eclipse-workspace\\ExcelReadBDD\\src\\test\\resources\\login.feature",
-		glue = "stepDefination",
+		features = {"C:\\Users\\T3j45\\git\\SeleniumProjects\\ExcelReadBDD\\src\\test\\java\\runner\\login.feature"},
+		glue = {"runner"},
 		strict = true,
-		dryRun = false,
+		dryRun=false,
 		monochrome = true,
 		plugin= {"pretty", 
 				"html:test-output"}
 		)
 
-public class TestRunner {
-	
 
+public class TestRunner extends AbstractTestNGCucumberTests {
+	
 }

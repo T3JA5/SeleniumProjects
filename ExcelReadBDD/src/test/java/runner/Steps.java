@@ -1,4 +1,4 @@
-package stepDefination;
+package runner;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,30 +6,29 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import excel.GetdatafromExcel;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.Login;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Steps {
-
-
-	public static WebDriver driver;
-	public static WebDriverWait wait;
+	
 	public Login login;
 	public GetdatafromExcel excelRead;
+	public static WebDriver driver;
+	public static WebDriverWait wait;
 
 	@Given("User launches chrome browser")
 	public void user_launches_chrome_browser() {
-
+		
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, 20);
 		login = PageFactory.initElements(driver, Login.class);
 
 		// Excel objects
-		String excelPath = "C:\\Users\\T3j45\\eclipse-workspace\\ExcelReadBDD\\src\\test\\resources\\TestData.xlsx";
+		String excelPath = "C:\\Users\\T3j45\\git\\SeleniumProjects\\ExcelReadBDD\\src\\test\\java\\runner\\TestData.xlsx";
 		String sheetName = "test";
 		excelRead = new GetdatafromExcel(excelPath, sheetName);
 	}
